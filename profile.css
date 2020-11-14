@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.body{
+    background-color: #f7f7f7;
+}
+.bgc{
+    background-color: #257DE2 ;
+    
+}
+.cl{
+    color: #f7f7f7;
+}
+.home{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.category{
+    
+    width: 20%;
+    margin-right: 10%;
+}
+.category h3{
+    text-align: center;
+}
+.main{
+    width: 40%;
+}
+.main h2{
+    text-align: center;
+}
+.post{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.main .form-group{
+    display: flex;
+}
+.main .card-header{
+    text-decoration: none;
+}
+.main .card-body{
+    text-align: center;
+}
+.answer-btn{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.answer-btn button{
+    width: 100%;
+    height: 50px;
+    background-color: #276FBF;
+    color: #f7f7f7;
+    border: solid 0px;
+}
+.bg-w{
+    background-color: #FCFCFC;
+}
+
+
+
+.profile{
+    width: 100%;
+}
+
+.side{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    background-color: #276fbf;
+    color: #f7f7f7;
+}
+.side span {
+    margin-left: 0px;
+}
+.pp img{
+    object-fit: cover;
+    margin: 20px;
+    margin-top: -100px;
+    border-radius: 20px;
+ width: 150px;
+ height: 240px;
+}
+
+
+.sider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.sides{
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.row .cont{
+    width: 60%;
+    padding: 30px;
+}
+.row .cont label{
+   margin: 10px;
+   border: 0 ;
+}
+
+.space{
+    padding: 0px 50px;
+    text-align: center;
+}
+.row h6{
+    margin-bottom: 30px;
+}
+.active{
+    background-color: #276FBF !important;
+}
+
+
+@media only screen and (max-width: 1050px) {
+    .main{
+        width: 60%;
+    }
+
+    .row .cont{
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    li span{
+        display: none !important;
+    }
+  }
+@media only screen and (max-width: 700px) {
+    .main{
+        width: 90%;
+    }
+    .home{
+        justify-content: center;
+    }
+
+   .category{
+        display: none !important;
+    }
+    .sider{
+        flex-direction: column;
+        
+    }
+
+    .space{
+        padding: 0px 10px;
+        text-align: left;
+    }
+    .home{
+        justify-content: center;
+    }
+    .pp  {
+        align-self: center;
+    }
+  }

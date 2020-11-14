@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.body{
+    background-color: #f7f7f7;
+}
+.bgc{
+    background-color: #276FBF ;
+    
+}
+.cl{
+    color: #f7f7f7;
+}
+.home{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.category{
+    
+    width: 20%;
+    margin-right: 10%;
+}
+.category h3{
+    text-align: center;
+}
+.main{
+    width: 40%;
+}
+.post{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.main .form-group{
+    display: flex;
+}
+.main .card-header{
+    text-decoration: none;
+}
+.main .card-body{
+    text-align: center;
+}
+.answer-btn{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.answer-btn button{
+    width: 100%;
+    height: 50px;
+    background-color: #276FBF;
+    color: #f7f7f7;
+    border: solid 0px;
+}
+.bg-w{
+    background-color: #FCFCFC;
+}
+
+
+
+@media only screen and (max-width: 1050px) {
+    .main{
+        width: 60%;
+    }
+
+    li span{
+        display: none !important;
+    }
+  }
+@media only screen and (max-width: 700px) {
+    .main{
+        width: 90%;
+    }
+    .home{
+        justify-content: center;
+    }
+
+   .category{
+        display: none !important;
+    }
+  }
